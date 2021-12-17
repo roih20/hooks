@@ -2,6 +2,7 @@ import React, { ChangeEvent, FormEvent, FormEventHandler, useState } from 'react
 
 type Submit = FormEvent<HTMLFormElement>
 type Event = ChangeEvent<HTMLInputElement>;
+
 interface IPeople {
     firstName: string;
     email: string;

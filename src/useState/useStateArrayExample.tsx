@@ -1,11 +1,11 @@
 import React, { useState } from 'react'
 
-interface IData {
+export interface IData {
     id: number;
     name: string
 }
 
-const data: IData[] = [
+export const data: IData[] = [
     {
         id: 1,
         name: 'Rodrigo',
